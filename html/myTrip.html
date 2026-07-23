@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>나의 여행지 - 정민성</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <h1>🌏 나의 여행 앨범 🎵</h1>
-    <p>
-        <audio controls autoplay muted>
-            <source src="media/travel_music.mp3" type="audio/mpeg">
-            <source src="media/travel_music.wav" type="audio/wav">
-            사용중인 브라우저는 오디오 재생을 지원하지 않습니다.
-        </audio>
-    </p>
+    <div class="container">
+        <h1>🌏 나의 여행 앨범 🎵</h1>
+        <p>
+            <audio controls autoplay muted>
+                <source src="media/travel_music.mp3" type="audio/mpeg">
+                <source src="media/travel_music.wav" type="audio/wav">
+                사용중인 브라우저는 오디오 재생을 지원하지 않습니다.
+            </audio>
+        </p>
 
-    <hr>
+        <hr>
 
-    <div>
-        <p>
-            <img src="media/lijiang.jpg" alt="리장 호도협" width="480"><br>
-            리장 호도협 (2025년)
-        </p>
-        <p>
-            <img src="media/cebu.jpg" alt="세부 탑스힐" width="480"><br>
-            세부 탑스힐 (2024년)
-        </p>
-        <p>
-            <img src="media/hokkaido.jpg" alt="홋카이도 대설산" width="480"><br>
-            홋카이도 대설산 (2025년)
-        </p>
+        <h2>📸 여행지 추억 갤러리</h2>
+        <div>
+            <p class="trip-card">
+                <img src="media/lijiang.jpg" alt="리장 호도협" width="480"><br>
+                <strong>리장 호도협 (2025년)</strong> - 웅장한 계곡과 트레킹의 감동 🏔️
+            </p>
+            <p class="trip-card">
+                <img src="media/cebu.jpg" alt="세부 탑스힐" width="480"><br>
+                <strong>세부 탑스힐 (2024년)</strong> - 도시 야경이 아름다운 언덕 🌃
+            </p>
+            <p class="trip-card">
+                <img src="media/hokkaido.jpg" alt="홋카이도 대설산" width="480"><br>
+                <strong>홋카이도 대설산 (2025년)</strong> - 끝없이 펼쳐진 설원의 풍경 ❄️
+            </p>
+        </div>
+
+        <hr>
+
+        <h2>📹 나의 여행 브이로그</h2>
+        <div class="trip-card">
+            <video width="480" height="360" controls poster="media/vlog_poster.jpg">
+                <source src="media/vlog.mp4" type="video/mp4">
+                <source src="media/vlog.webm" type="video/webm">
+                사용중인 브라우저는 비디오 재생을 지원하지 않습니다.
+            </video><br>
+            <strong>프랑스의 아름다운 음악 ✈️</strong>
+        </div>
+
+        <hr>
+
+        <p><a href="index.html">🏠 메인 Hub로 돌아가기</a></p>
     </div>
-
-    <hr>
-
-    <h2>📹 나의 여행 브이로그</h2>
-    <p>
-        <video width="480" height="360" controls poster="media/vlog_poster.jpg">
-            <source src="media/vlog.mp4" type="video/mp4">
-            <source src="media/vlog.webm" type="video/webm">
-            사용중인 브라우저는 비디오 재생을 지원하지 않습니다.
-        </video><br>
-        프랑스의 아름다운 음악 ✈️
-    </p>
 </body>
-
 </html>
