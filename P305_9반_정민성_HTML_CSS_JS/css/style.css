@@ -343,6 +343,37 @@ aside h2 {
     border: none;
 }
 
+.js-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed #bae6fd;
+}
+
+.js-btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.js-btn-group button {
+    width: 100%;
+    margin-right: 0;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    background-color: #0077b6;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.js-btn-group button:hover {
+    background-color: #0096c7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 119, 182, 0.25);
+}
+
 footer {
     margin-top: 30px;
     padding-top: 20px;
