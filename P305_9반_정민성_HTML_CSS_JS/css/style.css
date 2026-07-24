@@ -343,6 +343,78 @@ aside h2 {
     border: none;
 }
 
+.weather-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed #bae6fd;
+}
+
+#citySelect {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    padding: 10px;
+    border: 1px solid #bae6fd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 0.95rem;
+    color: #1e293b;
+}
+
+.weather-box {
+    background-color: #ffffff;
+    border: 1px solid #bae6fd;
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(0, 119, 182, 0.06);
+    min-height: 100px;
+}
+
+.weather-box .placeholder-text {
+    color: #64748b;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0;
+}
+
+.weather-info p {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.weather-info .city-title {
+    font-size: 1.05rem;
+    color: #0077b6;
+}
+
+.weather-info .coords {
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+.weather-info .weather-divider {
+    margin: 8px 0;
+    border-top: 1px dashed #e0f2fe;
+}
+
+.weather-info .highlight-temp {
+    color: #e63946;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.weather-info.loading .loading-msg {
+    color: #0077b6;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.weather-info.error .error-msg {
+    color: #d90429;
+    font-weight: 600;
+}
+
 .js-section {
     margin-top: 20px;
     padding-top: 15px;

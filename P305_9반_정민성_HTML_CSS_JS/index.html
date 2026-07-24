@@ -53,6 +53,25 @@
                 <p>현재 위치: 경기도 성남시 분당구 📍</p>
                 <p>추천 학습 사이트: <a href="https://www.w3schools.com" target="_blank">W3Schools 온라인 명세서</a></p>
 
+                <section class="weather-section">
+                    <h2>🌤️ 실시간 도시 날씨</h2>
+                    <label for="citySelect"><strong>도시 선택:</strong></label>
+                    <select id="citySelect">
+                        <option value="">-- 도시를 선택하세요 --</option>
+                        <option value="seongnam" data-lat="37.4386" data-lon="127.1378">성남 (Seongnam)</option>
+                        <option value="seoul" data-lat="37.5665" data-lon="126.9780">서울 (Seoul)</option>
+                        <option value="busan" data-lat="35.1796" data-lon="129.0756">부산 (Busan)</option>
+                        <option value="jeju" data-lat="33.4996" data-lon="126.5312">제주 (Jeju)</option>
+                        <option value="tokyo" data-lat="35.6762" data-lon="139.6503">도쿄 (Tokyo)</option>
+                        <option value="paris" data-lat="48.8566" data-lon="2.3522">파리 (Paris)</option>
+                        <option value="newyork" data-lat="40.7128" data-lon="-74.0060">뉴욕 (New York)</option>
+                    </select>
+
+                    <div id="weather-box" class="weather-box">
+                        <p class="placeholder-text">도시를 선택하면 실시간 날씨 정보가 표시됩니다.</p>
+                    </div>
+                </section>
+
                 <section class="js-section">
                     <h2>🎮 JS 실습 기능</h2>
                     <div class="js-btn-group">
@@ -75,5 +94,6 @@
     <script src="script/upDown.js"></script>
     <script src="script/grade.js"></script>
     <script src="script/bag.js"></script>
+    <script type="module" src="script/realtimeInfo.js"></script>
 </body>
 </html>
